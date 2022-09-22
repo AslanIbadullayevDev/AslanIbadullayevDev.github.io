@@ -1,0 +1,64 @@
+.list-items
+{
+    border-radius: 2px;
+    border-color: black;
+}
+li
+{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+body
+{
+    background-color: white;
+    font-family: "Aldrich";
+}
+.table1
+{
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.table-lang-skills
+{
+    border-collapse: collapse;
+}
+.table-lang-skills tr:nth-child(2n-1)
+{
+    background-color: aquamarine;
+}
+.table-lang-skills tr:nth-child(2n)
+{
+    background-color: blueviolet;
+}
+.table-lang-skills tr td
+{
+    text-align: center;
+    padding: 0.5rem;
+}
+footer
+{
+    background-color: white;
+}
+.list-items ol li:hover
+{
+    color: rgb(230, 41, 41);
+}
+.table1 td:nth-child(2)
+{
+    background-color: rgb(151, 226, 121);
+}
+
+.inline-elements div
+{
+    display: inline-block;
+}
+.inline-elements div:nth-child(2) tr
+{
+    margin-top: 0%;
+}
+.front-tech
+{
+    border: 1px;
+    border-color: black;
+}

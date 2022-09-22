@@ -1,0 +1,33 @@
+table, th, td
+{
+    border: 1px solid black;
+    border-color: black;
+    border-collapse: collapse;
+    font-size: 16px;
+    font-family: 'Aldrich';
+}
+h1
+{
+    font-family: 'Aldrich';
+}
+a
+{
+    font-size: 20px;
+    font-family: "Aldrich";
+}
+.inline h1, p
+{
+    display: inline-block;
+}
+div p
+{
+    margin-left: 20px;
+}
+table tr:nth-child(2n)
+{
+        background-color: aquamarine;
+}
+table tr:nth-child(2n-1)
+{
+        background-color: chartreuse;
+}
