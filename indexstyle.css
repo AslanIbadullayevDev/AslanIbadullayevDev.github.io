@@ -111,6 +111,10 @@ img {
     margin-right: 8px;
 }
 
+header {
+    position: sticky;
+    top: 0%;
+}
 .nav-bar {
     overflow: hidden;
     display: inline-flex;
