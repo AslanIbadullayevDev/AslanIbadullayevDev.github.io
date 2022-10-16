@@ -1,12 +1,97 @@
-.username-password label
-{
-    margin-top: 52px;
+body {
+    background-color: #36383d;
+    margin: 0;
 }
-#email
-{
-    margin-left: 30px;
+a {
+    text-decoration: none;
 }
-form div
+
+label {
+    font-family: sans-serif;
+}
+ol {
+    list-style-type: none;
+}
+form 
 {
-    margin-top: 100px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 40px;
+}
+.input-element {
+    margin-bottom: 10px;
+}
+
+input{
+    width: 100%;
+    height: 25px;
+    font-size: medium;
+    border-radius: 5px;
+    border-color: white;
+    border-style: none;
+}
+
+input:focus {
+    outline: red solid 1px;
+}
+
+textarea {
+    width: 100%;
+    font-size: larger;
+    border-style: none;
+}
+
+textarea:focus {
+    outline: red solid 1px;
+}
+
+.contact-info {
+    width: 50%;
+    margin: auto;
+}
+
+button[type="submit"] 
+{
+    font-size: 15px;
+    width: 120px;
+    height: 30px;
+    margin: 10px auto;
+}
+
+.submit-btn {
+    text-align: center;
+}
+
+.back-image {
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/d/dd/Flag_of_Azerbaijan.svg');
+    background-size: cover;
+    opacity: 0.9;
+}
+#subnewsletter {
+    width: 10%;
+    vertical-align: middle;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 4px;
+}
+
+label:last-of-type {
+    margin-top: 15px;
+}
+
+textarea:hover {
+    transition: 0.5s;
+    background-color: rgb(85, 211, 211);
+    border-radius: 5px;
+}
+
+input:hover {
+    transition: 0.3s;
+    background-color: rgb(85, 211, 211);
+}
+
+hr {
+    margin-top: 60px;
+    margin-bottom: 0;
 }

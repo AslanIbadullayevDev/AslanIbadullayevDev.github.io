@@ -1,0 +1,145 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #23252C;
+    color: white;
+    font-family: Inter, sans-serif;
+    box-sizing: border-box;
+}
+
+.digital-business-card {
+    width: 30%;
+    min-width: 300px;
+    margin: 50px auto;
+    border: 1px solid whitesmoke;
+    border-radius: 7px;
+}
+
+.main-content {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    background-color: #000000;
+}
+
+.image {
+    width: 100%;
+    height: 350px;
+    background-image: url("images/Aslan.jpeg");
+    background-size: cover;
+    object-fit: contain;
+    background-repeat: no-repeat;
+    background-position: top;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+}
+
+h1 {
+    min-width: 25%;
+    width: 100%;
+    font-size: 25px;
+    text-align: center;
+    max-width: 100%;
+}
+
+.status {
+    width: 100%;
+    text-align: center;
+    font-size: 13px;
+    color: #f3bf99;
+}
+
+.email {
+    text-align: center;
+    font-size: 11px;
+}
+
+.messenger-buttons {
+    width: 100%;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.messenger-email-button, .messenger-linkedin-button{
+    width: 115px;
+    height: 35px;
+    font-size: 14px;
+}
+.messenger-email-button {
+    border-radius: 7px;
+    border-color: white;
+    border: 0;
+}
+
+.messenger-email-button:hover {
+    border: 1px solid white;
+    background-color: #575758;
+    color: #FFFFFF;
+}
+
+
+
+.messenger-linkedin-button {
+    background-color: #5093E2;
+    border: 0;
+    border-radius: 7px;
+    color: #FFFFFF;
+}
+
+.messenger-linkedin-button:hover {
+    border: 1px solid white;
+    background-color: #575758;
+}
+
+.bio {
+    padding: 13px 30px;
+}
+
+.bio p {
+    font-size: 11px;
+}
+
+.bio h3 {
+    font-size: 16px;
+}
+
+footer {
+    background-color: #161619;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+    text-align: center;
+}
+
+.soc-network-links {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 70%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.soc-network-links > a {
+    font-size: x-large;
+    text-align: center;
+    background-color: #918E9B;
+    color: #000000;
+    border-radius: 3px;
+    width: 25px;
+    height: 27px;
+}
+
+.fa-facebook {
+    margin: 0;
+    padding: 0;
+}
+
+.soc-network-links > a:hover {
+    background-color: #C3C6C9;
+}
+  
+
