@@ -5,7 +5,7 @@
 body
 {
     margin: 0;
-    background-color: #B3FFAE;
+    background-color: #96DED1;
     font-family: "Aldrich";
 }
 
@@ -119,7 +119,7 @@ header {
 .nav-bar {
     overflow: hidden;
     display: inline-flex;
-    background-color: #615d5d;
+    background-color: #088F8F;
     width: 100%;
     height: 30px;
     column-gap: 5px;
@@ -128,11 +128,11 @@ header {
 .nav-bar a {   
     vertical-align: middle;
     text-align: center;
-    color: #bfbfbf;
+    color: whitesmoke;
     padding: 5px 10px;
 }
 
 .nav-bar a:hover{
-    background-color: #36383d;
+    background-color: #5F9EA0;
     transition: 0.3s;
 }
