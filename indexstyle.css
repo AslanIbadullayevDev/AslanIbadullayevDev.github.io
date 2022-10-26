@@ -5,7 +5,7 @@
 body
 {
     margin: 0;
-    background-color: #3f3f3f;
+    background-color: #B3FFAE;
     font-family: "Aldrich";
 }
 
@@ -87,7 +87,7 @@ footer
 }
 
 .nav-bar-sticky {
-    background-color: #36383d;
+    background-color: #2b4629;
     text-align: right;
 }
 
@@ -115,6 +115,7 @@ header {
     position: sticky;
     top: 0%;
 }
+
 .nav-bar {
     overflow: hidden;
     display: inline-flex;
@@ -124,7 +125,7 @@ header {
     column-gap: 5px;
 }
 
-.nav-bar a {
+.nav-bar a {   
     vertical-align: middle;
     text-align: center;
     color: #bfbfbf;
