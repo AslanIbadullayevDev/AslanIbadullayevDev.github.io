@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <nav>
+                <h1>Weather Teller App</h1>
+                <img src="logo.png" alt="weather-teller-app logo" class="nav-logo"/>
+            </nav>
+        </header>
+        <main>
+            <div class="weather-info-section">
+                <div class="weather-info-input">
+                    <label for="cityname">City</label>
+                    <input type="text" oninput="CityNameEntered()" name="cityname" id="cityname" placeholder="e.g. Baku">
+                    <div class="coordinates"><label for="coordinates">Coordinates</label><br>
+                    <div class="longlat"><input oninput="CoordinatesManuallyEntered()" type="text" name="longitude" id="longitude" placeholder="longitude"><input type="text" oninput="CoordinatesManuallyEntered()" name="latitude" id="latitude" placeholder="latitude"></div>
+                    </div>
+                    <p class="validationerrormessage">errormessage</p>
+                    <div class="currentposition">
+                        <input onclick="displayResult()" type="checkbox" name="usecurrentposition" id="usecurrentposition"><label for="usecurrentposition">Use my current position</label>
+                    </div>
+                    <div class="getinfo">
+                        <button onclick="GetWeatherInfo()" class="getinfobtn">Get Weather Info</button>
+                    </div>
+                </div>
+                <div class="weather-info-output">
+                    <div class="countryinfo">
+                        <figure>
+                            <div id="countryflag"></div>
+                            <figcaption class="countryfullname"></figcaption>
+                        </figure>
+                    </div>
+                    <div class="cityweatherinfo">
+
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer></footer>
+    </div>
+    <script type="text/javascript" src="index.js"></script>
+    <script src='./getgeolocation.js'></script>
+    <script src='./getweatherinfo.js'></script>
+</body>
+</html>

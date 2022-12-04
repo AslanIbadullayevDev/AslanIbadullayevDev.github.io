@@ -7,6 +7,7 @@ body
     margin: 0;
     background-color: #96DED1;
     font-family: "Aldrich";
+    overflow-y: scroll;
 }
 
 header {
@@ -108,7 +109,7 @@ img {
 
 .main-content {
     margin-left: 8px;
-    margin-right: 8px;
+    margin-right: 8px;  
 }
 
 header {
@@ -131,8 +132,35 @@ header {
     color: whitesmoke;
     padding: 5px 10px;
 }
-
 .nav-bar a:hover{
     background-color: #5F9EA0;
     transition: 0.3s;
+}
+.nav-bar select{
+    background-color: #088F8F;
+    border: 0;
+    outline: none;
+    color: whitesmoke;
+    font-family: 'Aldrich';
+    font-size: 16px;
+    appearance: none;
+    margin-left: auto;
+    padding: 5px 10px;
+}
+.nav-bar select:focus{
+    border: none;
+    outline: none;
+}
+.nav-bar select:hover {
+    background-color: #5F9EA0;
+}
+
+option {
+    background-color: #088F8F;
+    padding: 10px 5px;
+    color: whitesmoke;
+}
+
+option:hover{
+    background-color: #5F9EA0;
 }
