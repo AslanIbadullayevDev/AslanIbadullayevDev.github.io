@@ -171,3 +171,8 @@ async function DetermineWindDirection(degree)
     }
     return "North-northwest";
 }
+
+window.onload = function ()
+{
+    alert("Welcome to my Weather Tellep App! When you enter one of the fields below and hit the Get Weather Info, it may take short time. So dont think that it doesnt work. It works properly.")
+}
