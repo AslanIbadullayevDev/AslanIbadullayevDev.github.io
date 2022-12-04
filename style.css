@@ -248,6 +248,7 @@ hr {
     border: 2px solid green;
     width: 100%;
     background-color: green;
+    margin-top: 20px;
 }
 
 .cityweatherinfo {

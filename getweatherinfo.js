@@ -7,6 +7,7 @@ async function GetWeatherInfo()
     countryflag.style.backgroundImage = "none";
     document.querySelector(".countryfullname").textContent = "";
     document.querySelector(".cityweatherinfo").style.visibility = "hidden";
+    document.querySelector(".nonweatherinfo").style.visibility = "hidden";
     let apikey = "94076010b19f21f9418a0f8060042867"; // don't steal this please. I know, you are an instructor but i dont trust anyone
     ValidationCheckCoordinates();
 
