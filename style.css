@@ -14,6 +14,7 @@ nav {
     justify-content: start;
     align-items: center;
     background-color: #0e70a1;
+    flex-wrap: wrap;
 }
 
 nav h1 {
@@ -30,6 +31,7 @@ nav h1 {
 .weather-info-section {
     width: 100%;
     display: flex;
+    flex-wrap: wrap;
     column-gap: 30px;
     padding-top: 50px;
     padding-left: 100px;
@@ -48,10 +50,11 @@ nav h1 {
 }
 
 .weather-info-input {
-    padding-top: 50px;
-    padding-bottom: 50px;
-    padding-left: 80px;
-    padding-right: 80px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 40px;
+    padding-right: 40px;
+    width: 30%;
 }
 
 label {
@@ -174,11 +177,14 @@ input[name="usecurrentposition"]
 .weather-info-output {
     display: flex;
     flex-direction: row-reverse;
+    flex-wrap: wrap;
+    width: 70%;
 }
 
 .cityinfo{
     width: 50%;
 }
+
 .countryinfo {
     width: 50%;
     height: 50%;
@@ -186,13 +192,14 @@ input[name="usecurrentposition"]
 
 #countryflag {
     width: 100%;
-    height: 80%;
+    height: 90%;
     background-image: none;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     border: 1px solid unset;
     border-top-right-radius: 10px;
+    margin-left: auto;
 }
 
 figure {
@@ -206,4 +213,58 @@ figure {
     margin-top: 7px;
     text-align: center;
 
+}
+
+.nonweatherinfo {
+    width: 50%;
+    height: 45%;
+}
+
+.cityweatherinfo {
+    width: 100%;
+    height: 45%;
+}
+
+.table {
+    width: 100%;
+    visibility: hidden;
+}
+
+.nonweatherinfo > table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.nonweatherinfo > table {
+    width: 100%;
+    height: 100%;
+}
+
+.nonweatherinfo > table > td{
+    text-align: center;
+}
+
+hr {
+    border: 2px solid green;
+    width: 100%;
+    background-color: green;
+}
+
+.cityweatherinfo {
+    display: flex;
+    justify-content: space-around;
+    column-gap: 10px;
+    padding-top: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 40px;
+}
+
+.cityweatherinfo > table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.cityweatherinfo {
+    visibility: hidden;
 }
