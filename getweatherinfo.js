@@ -18,7 +18,7 @@ async function GetWeatherInfo()
     }
     else if(longi.value.length > 0 && lati.value.length > 0)
     {
-        let response3 = await fetch(`http://api.openweathermap.org/geo/1.0/reverse?lat=${lati.value}&lon=${longi.value}&limit=1&appid=${apikey}`);
+        let response3 = await fetch(`https://api.openweathermap.org/geo/1.0/reverse?lat=${lati.value}&lon=${longi.value}&limit=1&appid=${apikey}`);
         let json3 = await response3.json();
         GetCountryFlag(json3);
         
