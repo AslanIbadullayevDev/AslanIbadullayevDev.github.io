@@ -1,4 +1,3 @@
-
 let cityname = document.querySelector("#cityname");
 let longitude = document.querySelector("#longitude");
 let latitude = document.querySelector("#latitude");
